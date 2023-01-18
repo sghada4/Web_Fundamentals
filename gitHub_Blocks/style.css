@@ -1,0 +1,52 @@
+.container {
+
+    margin: 0px auto;
+
+}
+
+#first {
+    background-color: rgb(92, 220, 252);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#second {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#third {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.back {
+    background-color: white;
+}
+h1{
+    font-family: sans-serif;
+    color: rgb(95, 95, 95);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+p{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(140, 140, 140);
+}
