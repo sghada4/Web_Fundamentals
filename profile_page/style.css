@@ -1,0 +1,418 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/***************NavBar***************/
+
+#header {
+    background-color: rgb(67, 66, 66);
+    position: fixed;
+    top: 0px;
+    width: 1600px;
+    height: 60px;
+}
+
+.nav-title {
+    color: white;
+    font-family: roboto;
+    font-weight: lighter;
+    position: fixed;
+    top: 15px;
+    left: 100px;
+}
+
+.nav-links {
+    width: 300px;
+    color: rgb(67, 66, 66);
+    position: fixed;
+    top: 25px;
+    left: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home {
+    color: white;
+    text-decoration: none;
+}
+
+#profile {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#connection {
+    color: white;
+    text-decoration: none;
+}
+
+#signOut {
+    background-color: rgb(13, 207, 210);
+    box-shadow: 5px 2px 2px black;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    top: 15px;
+    left: 1300px;
+}
+
+/***************UserCard***************/
+
+.blue {
+    background-color: rgb(23, 162, 184);
+    height: 100px;
+    width: 600px;
+    position: fixed;
+    top: 100px;
+    left: 300px;
+}
+
+#userPhoto {
+    width: 100px;
+    height: 100px;
+    border: 3px white solid;
+    /*for the first border white*/
+    outline: 3px solid rgb(204, 204, 204);
+    /*for the second border gray*/
+    border-radius: 50%;
+    position: fixed;
+    top: 150px;
+    left: 350px;
+}
+
+.white {
+    position: fixed;
+    width: 595px;
+    height: 260px;
+    top: 200px;
+    left: 300px;
+    border: 3px solid rgb(204, 204, 204);
+    border-top: none;
+}
+
+h1 {
+    font-family: cursive;
+    position: fixed;
+    top: 250px;
+    left: 350px;
+}
+
+#map {
+    width: 13px;
+    height: 20px;
+    position: fixed;
+    top: 310px;
+    left: 340px;
+}
+
+h3 {
+    font-family: cursive;
+    font-weight: lighter;
+    position: fixed;
+    left: 365px;
+    top: 310px;
+}
+
+#main-p {
+    font-family: cursive;
+    position: fixed;
+    top: 350px;
+    left: 340px;
+}
+
+#gear {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 410px;
+    left: 340px;
+}
+
+#edit {
+    position: fixed;
+    top: 410px;
+    left: 380px;
+}
+
+/***************Education***************/
+
+.black {
+    background-color: black;
+    height: 20px;
+    width: 500px;
+    padding: 20px;
+    padding-right: 80px;
+    position: fixed;
+    top: 500px;
+    left: 300px;
+    color: white;
+    font-family: cursive;
+}
+
+.education-white {
+    border: 3px solid rgb(204, 204, 204);
+    border-top: none;
+    position: fixed;
+    width: 595px;
+    height: 260px;
+    top: 560px;
+    left: 300px;
+}
+
+#coding-dojo {
+    position: fixed;
+    top: 580px;
+    left: 320px;
+    font-family: cursive;
+}
+
+#date {
+    font-family: cursive;
+    color: grey;
+    font-weight: lighter;
+    position: fixed;
+    top: 620px;
+    left: 320px;
+}
+
+#p-education {
+    position: fixed;
+    top: 650px;
+    left: 320px;
+    font-family: cursive;
+}
+
+/***************connection-requests***************/
+
+.requests-black {
+    background-color: black;
+    position: fixed;
+    top: 100px;
+    left: 1050px;
+    height: 20px;
+    width: 300px;
+    padding: 20px;
+}
+
+#p2 {
+    background-color: rgb(154, 154, 154);
+    color: black;
+    font-family: cursive;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    padding: 5px;
+    position: fixed;
+    top: 120px;
+    left: 1070px;
+}
+
+#p-requests {
+    color: white;
+    font-family: cursive;
+    position: fixed;
+    top: 120px;
+    left: 1120px;
+}
+
+.requests-white {
+    border: 3px solid rgb(204, 204, 204);
+    border-top: none;
+    position: fixed;
+    width: 335px;
+    height: 180px;
+    top: 160px;
+    left: 1050px;
+}
+
+#todd {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: fixed;
+    top: 190px;
+    left: 1070px;
+}
+
+#todd-name {
+    position: fixed;
+    top: 200px;
+    left: 1130px;
+    font-family: cursive;
+}
+
+#todd-accept {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 190px;
+    left: 1270px;
+}
+
+#todd-close {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 190px;
+    left: 1320px;
+}
+
+#phil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: fixed;
+    top: 250px;
+    left: 1070px;
+}
+
+#phil-name {
+    position: fixed;
+    top: 260px;
+    left: 1130px;
+    font-family: cursive;
+}
+
+#phil-accept {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 250px;
+    left: 1270px;
+}
+
+#phil-close {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 250px;
+    left: 1320px;
+}
+
+/***************your-connections***************/
+
+.connections-black{
+    background-color: black;
+    position: fixed;
+    top: 400px;
+    left: 1050px;
+    height: 20px;
+    width: 300px;
+    padding: 20px;
+}
+
+#p500{
+    background-color: rgb(154, 154, 154);
+    color: black;
+    font-family: cursive;
+    width: 40px;
+    height: 20px;
+    border-radius: 80%;
+    padding: 5px;
+    position: fixed;
+    top: 420px;
+    left: 1070px;
+}
+
+#p-your-connections{
+    color: white;
+    font-family: cursive;
+    position: fixed;
+    top: 425px;
+    left: 1140px;
+}
+
+.connections-white{
+    border: 3px solid rgb(204, 204, 204);
+    border-top: none;
+    position: fixed;
+    width: 335px;
+    height: 250px;
+    top: 460px;
+    left: 1050px;
+}
+
+#adrien{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: fixed;
+    top: 480px;
+    left: 1070px;
+}
+
+#anne{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: fixed;
+    top: 540px;
+    left: 1070px;
+}
+
+#alayne{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: fixed;
+    top: 600px;
+    left: 1070px;
+}
+
+#arry{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: fixed;
+    top: 660px;
+    left: 1070px;
+}
+
+#adrien-name{
+    font-family: cursive;
+    position: fixed;
+    top: 490px;
+    left: 1130px;
+}
+
+#anne-name{
+    font-family: cursive;
+    position: fixed;
+    top: 550px;
+    left: 1130px;
+}
+
+#alayne-name{
+    font-family: cursive;
+    position: fixed;
+    top: 610px;
+    left: 1130px;
+}
+
+#arry-name{
+    font-family: cursive;
+    position: fixed;
+    top: 670px;
+    left: 1130px;
+}
+
+/***************View***************/
+
+.view{
+    border: 3px solid rgb(204, 204, 204);
+    border-top: none;
+    position: fixed;
+    width: 335px;
+    height: 45px;
+    top: 700px;
+    left: 1050px;
+}
+
+#a-view{
+    position: fixed;
+    top: 720px;
+    left: 1080px;
+    font-family: cursive;
+}
