@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <!--********************Header starts here ********************-->
+        <div id="header">
+            <h1 class="titles">Dojonary</h1>
+            <input type="text" id="search" placeholder=" Search">
+            <button id="login" onclick="login('login')">Login</button>
+        </div>
+        <!--********************Header ends here ********************-->
+        <!--********************Main starts here ********************-->
+
+        <div id="main">
+            <div class="top">
+                <div class="ninjas">
+                    <div class="cards">
+                        <h1 class="titles">ninja</h1>
+                        <p class="noun">noun</p>
+                        <p class="plural">Plural: ninjas</p>
+                        <button class="yellow-btn" onclick="message()">13 likes</button>
+                    </div>
+                    <div>
+                        <p>A practitioner skilled in the <br>
+                            <a href="#">Japanese</a>
+                            art of
+                            <a href="#">ninjutsu</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="dojonary">
+                    <h1 class="titles">Dojonary is defined by YOU</h1>
+                    <button id="green-btn" onclick="removeElement('green-btn')">Add Definition</button>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="ninjas">
+                    <div class="cards">
+                        <h1 class="titles">ninja</h1>
+                        <p class="noun">noun</p>
+                        <p class="plural">Plural: ninjas</p>
+                        <button class="yellow-btn">37 likes</button>
+                    </div>
+                    <div>
+                        <p>A <a href="#">programmer</a> who breaks <br>
+                            down problems with
+                            <a href="#">zen</a>-like <br>
+                            focus
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--********************Main ends here ********************-->
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
