@@ -1,0 +1,135 @@
+/* Universal Selector reset default  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Container styling start */
+#container {
+    margin: 0px auto;
+    width: 900px;
+    padding: 10px;
+}
+
+/* Container styling end */
+
+/* Header styling start */
+#header {
+    background-color: #c3def8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.app-logo {
+    display: flex;
+    align-items: center;
+}
+
+.app-logo img {
+    width: 50px;
+}
+
+.app-logo h1 {
+    color: white;
+}
+
+#text-logo {
+    color: #545b62;
+}
+
+button {
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 5px;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+.LogRegBtns button {
+    margin-right: 30px;
+}
+
+#registerBtn {
+    font-weight: 900;
+    width: 90px;
+    margin-right: 20px;
+}
+
+#loginBtn {
+    color: white;
+    background-color: #085394;
+    width: 60px;
+    font-weight: 600;
+}
+
+#loginBtn:hover {
+    background-color: red;
+}
+
+/* Header styling end */
+
+/* Main styling start */
+
+.nftCard {
+    background-color: #eeeeee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.nftCard img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #545b62;
+    border-radius: 20px;
+}
+
+.nftCard h1 {
+    font-size: 40px;
+}
+
+.nftCard p {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nftCard button {
+    color: white;
+    background-color: #17cfd1;
+    padding: 5px 10px;
+}
+
+/* Main styling end */
+
+/* popup styling start */
+#popup {
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    padding: 5px;
+    width: 885px;
+}
+
+#popup p {
+    font-size: 22px;
+}
+
+#popup button {
+    background-color: #ca6899;
+    color: white;
+    width: 100px;
+}
+
+/* popup styling end */

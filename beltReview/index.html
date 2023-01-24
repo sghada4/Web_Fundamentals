@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Belt Demo</title>
+</head>
+
+<body>
+    <!-- Container start -->
+    <div id="container">
+        <!-- Header start -->
+        <div id="header">
+            <div class="app-logo">
+                <img src="images/nft-logo.png" alt="nft-logo">
+                <h1>NFT<span id="text-logo">Store</span></h1>
+            </div>
+            <div class="LogRegBtns">
+                <button id="registerBtn">Register</button>
+                <button id="loginBtn" onclick="logout(this)">Login</button>
+            </div>
+
+        </div>
+        <!-- Header end -->
+        <!-- Main start -->
+        <div id="main">
+            <div class="nftCard" id="nftCard-1">
+                <img src="/images/1.jpg" alt="nft-1">
+                <h1>Price : 7 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like1">5</span> Likes</p>
+                    <br>
+                    <button onclick="like('like1')">Like</button>
+                    <button onclick="remove('nftCard-1')">Buy</button>
+                </div>
+            </div>
+            <div class="nftCard" id="nftCard-2">
+                <img src="/images/2.jpg" alt="nft-1">
+                <h1>Price : 5 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like2">0</span> Likes</p>
+                    <br>
+                    <button onclick="like('like2')">Like</button>
+                    <button onclick="remove('nftCard-2')">Buy</button>
+                </div>
+            </div>
+            <div class="nftCard" id="nftCard-3">
+                <img src="/images/3.jpg" alt="nft-1">
+                <h1>Price : 3 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like3">2</span> Likes</p>
+                    <br>
+                    <button onclick="like('like3')">Like</button>
+                    <button onclick="remove('nftCard-3')">Buy</button>
+                </div>
+            </div>
+            <div class="nftCard" id="nftCard-4">
+                <img src="/images/4.jpg" alt="nft-1">
+                <h1>Price : 6 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like4">15</span> Likes</p>
+                    <br>
+                    <button onclick="like('like4')">Like</button>
+                    <button onclick="remove('nftCard-4')">Buy</button>
+                </div>
+            </div>
+            <div class="nftCard" id="nftCard-5">
+                <img src="/images/5.png" alt="nft-1">
+                <h1>Price : 4.75 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like5">8</span> Likes</p>
+                    <br>
+                    <button onclick="like('like5')">Like</button>
+                    <button onclick="remove('nftCard-5')">Buy</button>
+                </div>
+            </div>
+        </div>
+        <!-- Main end -->
+        <!-- popup start -->
+        <div id="popup">
+            <p>
+                This site makes use of third-party cookies. By clicking "I Accept" <br> you agree to the terms outlined
+                in our
+                <a href="#">cookie policy.</a>
+            </p>
+            <button onclick="remove('popup')">I Accept</button>
+        </div>
+        <!-- popup start -->
+    </div>
+    <!-- Container end -->
+    <script src="script.js"></script>
+</body>
+
+</html>
