@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- Header start -->
+        <div id="header">
+            <div class="head">
+                <h1 id="title">Network</h1>
+            </div>
+            <h1 id="feed">Your Feed</h1>
+        </div>
+        <!-- Header end -->
+        <!-- Main start -->
+        <div id="main">
+            
+            <div class="userCard">
+                <img src="user.PNG" alt="user photo">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+            <div class="feedCards">
+                <div class="feedCard">
+                    <div class="feedCardTop">
+                        <h3>Some User</h3>
+                        <div class="feedCardLeft">
+                            <p><span id="likes-1">3</span> Like(s)</p>
+                            <button onclick="like('likes-1')">Like</button>
+                        </div>
+                    </div>
+                    <br>
+                    <p>This is some filler text, it can say anything we Like</p>
+                </div>
+                <div class="feedCard">
+                    <div class="feedCardTop">
+                        <h3>Some User</h3>
+                        <div class="feedCardLeft">
+                            <p><span id="likes-2">3</span> Like(s)</p>
+                            <button onclick="like('likes-2')">Like</button>
+                        </div>
+                    </div>
+                    <br>
+                    <p>This is some filler text, it can say anything we Like</p>
+                </div>
+                <div class="feedCard">
+                    <div class="feedCardTop">
+                        <h3>Some User</h3>
+                        <div class="feedCardLeft">
+                            <p><span id="likes-3">3</span> Like(s)</p>
+                            <button onclick="like('likes-3')">Like</button>
+                        </div>
+                    </div>
+                    <br>
+                    <p>This is some filler text, it can say anything we Like</p>
+                </div>
+            </div>
+        </div>
+        <!-- Main end -->
+    </div>
+    <!-- javaScript link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
