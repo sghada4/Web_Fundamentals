@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div class="title">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="cities">
+                <h3 onclick="message()">Burbank</h3>
+                <h3 onclick="message()">Chicago</h3>
+                <h3 onclick="message()">Dallas</h3>
+            </div>
+        </div>
+        <div id="main">
+            <div class="settings">
+                <div class="actualCity">
+                    <h1>San Jose</h1>
+                </div>
+                <div class="degree">
+                    <p>show temperature in</p>
+                    <select>
+                        <option value="1" onclick="temperature('1','max')">°C</option>
+                        <option value="2" onclick="temperature('2','min')">°F</option>
+                    </select>
+                </div>
+
+            </div>
+            <br>
+            <hr align="center" width="1500" NOSHADE>
+            <div class="dailyWeather">
+                <div class="day">
+                    <h3>Today</h3>
+                    <img src="/assets/some_rain.png" alt="raining">
+                    <p>some rain</p>
+                    <div class="marge">
+                        <p class="max">24°</p>
+                        <p class="min">18°</p>
+                    </div>
+                </div>
+                <div class="day">
+                    <h3>Tomorrow</h3>
+                    <img src="/assets/some_sun.png" alt="sunny">
+                    <p>some sun</p>
+                    <div class="marge">
+                        <p class="max">27°</p>
+                        <p class="min">19°</p>
+                    </div>
+                </div>
+                <div class="day">
+                    <h3>Friday</h3>
+                    <img src="/assets/some_clouds.png" alt="cloud">
+                    <p>some clouds</p>
+                    <div class="marge">
+                        <p class="max">21°</p>
+                        <p class="min">16°</p>
+                    </div>
+                </div>
+                <div class="day">
+                    <h3>Saturday</h3>
+                    <img src="/assets/some_sun.png" alt="raining">
+                    <p>some sun</p>
+                    <div class="marge">
+                        <p class="max">26°</p>
+                        <p class="min">21°</p>
+                    </div>
+                </div>
+            </div>
+            <div class="popup" id="popup">
+                <img src="/assets/cookie.png" alt="cookie">
+                <div>
+                    <p><span id="stop">Stop! Cookie time</span> <br> We use cookies (sadly not the edible ones) to personalize <br>
+                        content and ads, to provide social
+                        media features and to <br> analyse our traffic.
+                        <a href="#">Read more...</a>
+                    </p>
+                </div>
+                <button onclick="removeCookie('popup')">I Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

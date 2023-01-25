@@ -1,0 +1,133 @@
+/* universal reset default */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: rgb(159, 197, 248);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.title h1 {
+    font-family: cursive;
+
+}
+
+.cities {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cities h3 {
+    font-family: cursive;
+    font-weight: 100;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: cursive;
+}
+
+.actualCity h1 {
+    font-weight: 500;
+}
+
+.degree {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    border: 2px solid black;
+}
+
+.dailyWeather {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.day {
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 150px;
+    height: 300px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: cursive;
+}
+
+.day img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.marge {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+.max {
+    color: red;
+}
+
+.min {
+    color: blue;
+}
+
+.popup {
+    background-color: rgb(238, 238, 238);
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 900px;
+    padding: 5px 20px;
+}
+
+#stop {
+    font-family: cursive;
+    font-weight: 900;
+}
+
+.popup img {
+    margin-right: -300px;
+}
+
+.popup p {
+    font-family: cursive;
+}
+
+button {
+    background-color: rgb(159, 197, 248);
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    font-family: cursive;
+    font-weight: 700;
+}
