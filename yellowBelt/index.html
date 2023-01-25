@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- styling file link -->
+    <title>Succulent Shop</title>
+</head>
+
+<body>
+    <!-- our page starts here -->
+    <div id="container">
+        <!-- Header start -->
+        <div id="header">
+            <div id="header-top">
+                <!-- contain the first part of the header -->
+                <img id="logoImg" src="/images/assets/leaf.png" alt="logo photo">
+                <h1>EasyBay</h1>
+                <input type="search" placeholder="   Search for anything">
+                <!-- <img id="search" src="/images/assets/search-dark.png" alt="search"> problem style -->
+                <p>Sign In</p>
+                <img id="panier" onclick="message()" src="/images/assets/cart-dark.png" alt="panier">
+            </div>
+            <div id="header-bottom">
+                <!-- contain the second part of the header -->
+                <p>Aeonium</p>
+                <p>Andormischus</p>
+                <p>Agave</p>
+                <p>Aloe</p>
+                <p>Anacampseros</p>
+                <p>Aristaloe</p>
+                <p>More...</p>
+            </div>
+            <!-- parting line -->
+            <hr align="center" width="800" NOSHADE>
+        </div>
+        <!-- Header end -->
+
+        <!-- Main start -->
+        <div id="main">
+            <!-- contain the title of the main part -->
+            <div class="top">
+                <h1>Your Source for Serious Succulent Specialties</h1>
+            </div>
+
+            <!-- contain the second part of the main -->
+            <!-- middle start -->
+            <div class="middle">
+                <div class="middle-top">
+                    <div class="discover">
+                        <div class="parag">
+                            <p>Discover succ- <br>
+                                ulent varieties <br>
+                                one pot or rack <br>
+                                at a time! <br>
+                                <br>
+                            </p>
+                        </div>
+                        <div class="next">
+                            <p>Discover</p>
+                            <img class="arrow-light" src="/images/assets/arrow-light.png" alt="arrow light">
+                        </div>
+                    </div>
+                    <img id="succulent" onmouseover="overImage('succulent')" onmouseout="outImage('succulent')"
+                        src="/images/assets/succulents-1.jpg" alt="Succulent">
+                    <div class="soothings">
+                        <img id="aloe" src="/images/assets/aloe-m.jpg" alt="Aloe">
+                        <div class="soothingAloe">
+                            <p>Soothing Aloe</p>
+                            <img class="arrow-light" src="/images/assets/arrow-light.png" alt="arrow light">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- middle end -->
+
+            <!-- contain the last part: the article images and names -->
+            <!-- bottom start -->
+            <div class="bottom">
+                <div class="article">
+                    <img src="/images/assets/aeonium-s.jpg" alt="aeonium">
+                    <p>Aeonium</p>
+                </div>
+                <div class="article">
+                    <img src="/images/assets/aloe-s.jpg" alt="aloe">
+                    <p>Aloe</p>
+                </div>
+                <div class="article">
+                    <img src="/images/assets/cactus-s.jpg" alt="cactus">
+                    <p>Cactus</p>
+                </div>
+                <div class="article">
+                    <img src="/images/assets/echeveria-s.jpg" alt="echeveria">
+                    <p>Echeveria</p>
+                </div>
+                <div class="article">
+                    <img src="/images/assets/sedum-s.jpg" alt="sedum">
+                    <p>Sedum</p>
+                </div>
+                <div class="article">
+                    <img src="/images/assets/sempervivum-s.jpg" alt="sempervivum">
+                    <p>Sempervivum</p>
+                </div>
+            </div>
+            <!-- bottom end -->
+
+            <!-- contain the cookie part -->
+            <!-- popup start -->
+            <div class="popup" id="popup">
+                <img src="/images/assets/alert-dark.png" alt="alert">
+                <p>This site makes use of third-party cookies, by clicking "I accept"
+                    <br>you agree to the terms outlined in our <a href="#">cookie policy.</a>
+                </p>
+                <button onclick="removePopup('popup')">I Accept</button>
+            </div>
+            <!-- popup end -->
+        </div>
+        <!-- Main end -->
+
+    </div>
+    <!-- our page ends here -->
+
+    <!-- functionalities file link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
